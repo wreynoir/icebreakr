@@ -1,6 +1,6 @@
 
 "use client";
-import { VIBES, Vibe } from "@/lib/siteConfig";
+import { VIBES, Vibe } from "../lib/siteConfig";
 
 export default function VibePicker({
   value, onChange, counts

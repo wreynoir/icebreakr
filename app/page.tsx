@@ -2,11 +2,11 @@
 "use client";
 import Image from "next/image";
 import { useEffect, useMemo, useRef, useState } from "react";
-import VibePicker from "@/components/VibePicker";
-import IceButton from "@/components/IceButton";
-import { VIBES, Vibe, SUBMIT_FORM_URL } from "@/lib/siteConfig";
-import questions from "@/data/questions.json";
-import { pickRandom } from "@/lib/random";
+import VibePicker from "../components/VibePicker";
+import IceButton from "../components/IceButton";
+import { VIBES, Vibe, SUBMIT_FORM_URL } from "../lib/siteConfig";
+import questions from "../data/questions.json";
+import { pickRandom } from "../lib/random";
 
 type Q = { id:string; text:string; vibe:Vibe };
 
