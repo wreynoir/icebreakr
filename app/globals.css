@@ -1,0 +1,7 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { @apply bg-gradient-to-b from-ice-50 to-ice-100 text-ice-900 min-h-screen; background-attachment: fixed; }
+.frost-card { @apply bg-white/70 backdrop-blur-md rounded-2xl shadow-lg border border-white/40; }
